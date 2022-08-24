@@ -1,4 +1,4 @@
-# Observability / Keda
+# Keda
 
 Terraform module which configure Keda resources on Amazon AWS
 
