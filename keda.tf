@@ -71,7 +71,7 @@ resource "aws_iam_policy" "keda" {
 
 module "irsa_keda" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-assumable-role-with-oidc"
-  version = "5.5.4"
+  version = "5.5.7"
 
   create_role                   = true
   role_description              = "Keda Role"
